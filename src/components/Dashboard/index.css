@@ -1,0 +1,135 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  /* align-items: center;
+  justify-content: center; */
+}
+.leftcontainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  font-family: roboto;
+  color: white;
+  width: auto;
+  height: 100vh;
+  padding: 10px;
+  border-radius: 50px;
+  margin: 25px;
+}
+
+.navele {
+  padding: 10px;
+}
+.rightcontainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.board {
+  font-weight: 600;
+  font-size: 40px;
+}
+
+.minicontainers {
+  display: flex;
+  flex-direction: row;
+}
+.individualprop {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  margin-top: 65px;
+}
+.dashboard {
+  font-family: roboto;
+  font-size: 25px;
+  color: black;
+  margin-top: 35px;
+}
+.uppertotalcontainers {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: rgb(178, 246, 193);
+  border-radius: 30px;
+  padding: 10px;
+  margin: 10px;
+  height: 120px;
+  width: 221px;
+  margin-top: 120px;
+  margin-left: 1px;
+}
+
+.background1 {
+  background-color: beige;
+}
+.background2 {
+  background-color: rgb(206, 124, 124);
+}
+.background3 {
+  background-color: rgb(151, 151, 198);
+}
+
+.bottomdata {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.piechart {
+  background-color: whitesmoke;
+  border-radius: 15px;
+  width: 480px;
+  height: 480px;
+  padding: 2px;
+}
+
+.topprod {
+  font-size: 20px;
+}
+
+.meeting {
+  background-color: #e6f6ff;
+  /* width: 100%; */
+  border-style: solid;
+  border-width: 5px;
+  border-color: #096f92;
+  border-right: none;
+  border-top: none;
+  border-bottom: none;
+  border-radius: 4px;
+  padding: 10px;
+  margin: 10px;
+}
+
+.meeting2 {
+  border-color: rgb(60, 104, 60);
+}
+.meetinngcontainer {
+  height: 400px;
+  width: 400px;
+  background-color: whitesmoke;
+  border-radius: 15px;
+}
+
+.initialmeeting {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.schedule {
+  font-size: 20px;
+  font-weight: 600;
+  font-family: roboto;
+}

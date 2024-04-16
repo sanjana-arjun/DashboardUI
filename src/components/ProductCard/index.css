@@ -1,0 +1,10 @@
+.initialmeeting {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 10px;
+  margin: 10px;
+}
+.guest {
+  padding: 10px;
+}
